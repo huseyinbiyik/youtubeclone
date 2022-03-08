@@ -1,60 +1,77 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Roboto;
 }
+
+
 
 header {
     width: 100%;
     background-color: #212121;
 }
 
-.menucontainer{
+.menucontainer {
     padding: 0 16px;
     height: 56px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
+
 }
 
-.left-nav{
-display: flex;
-align-items: center;
+main{
+    background-color: #181818;
 }
 
-.icon-container{
+.left-nav {
+    display: flex;
+    align-items: center;
+}
+
+.icon-container {
     padding: 8px;
 }
 
-.material-icons.light { color: rgb(255, 255, 255); }
-
-.logo-container{
-padding: 18px 14px 18px 16px;
-display: flex;
-justify-content: center;
-align-items: center;
+.material-icons-outlined.light {
+    color: rgb(255, 255, 255);
 }
 
-.logo{
+.material-icons-outlined.blue {
+    color: #3ea6ff;
+}
+
+span{
+}
+
+.logo-container {
+    padding: 18px 14px 18px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
     width: 90px;
     height: 20px;
 }
 
 
 
-.middle-search{
+.middle-search {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.search-background{
+.search-background {
     border: 1px solid;
     padding: 2px 6px;
     background-color: #121212;
 }
 
-.search{
+.search {
     width: 559px;
     height: 34px;
     padding: 1px 2px;
@@ -64,13 +81,13 @@ align-items: center;
 
 }
 
-.search::placeholder{
+.search::placeholder {
     font-size: 16px;
     font-family: Roboto;
-  
+
 }
 
-.search-button-container{
+.search-button-container {
     background-color: rgb(48, 48, 48);
     width: 50px;
     height: 36px;
@@ -81,7 +98,7 @@ align-items: center;
     align-items: center;
 }
 
-.voice-search-container{
+.voice-search-container {
     background-color: #181818;
     border-radius: 50%;
     padding: 8px;
@@ -90,14 +107,64 @@ align-items: center;
 
 
 
-.right-nav{
+.right-nav {
     display: flex;
 }
 
-.app-menu-container{
+.app-menu-container {
     padding: 8px;
 }
 
-.settings-container{
+.settings-container {
     padding: 8px;
+    margin-right: 8px;
+}
+
+.signin-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85px;
+    height: 28px;
+    padding: 5px 11px;
+    border: 1px solid #3ea6ff;
+}
+
+#sign-in-text {
+    color: #3ea6ff;
+    font-size: 14px;
+    margin-left: 8px
+
+}
+
+
+
+
+
+.video-container{
+    margin-left: 24px;
+    padding-top: 24px;
+    padding-right: 24px;
+}
+
+.video-def{
+    padding-top: 20px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+video-tags{
+    display: block;
+}
+
+.video-tags a{
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(62,166,255);
+}
+
+.video-main-title h1{
+color: rgb(255,255,255);
+font-weight: 400;
+font-size: 18px
 }
