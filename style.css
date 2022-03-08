@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: #212121;
+}
+
+.menucontainer{
+    padding: 0 16px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.left-nav{
+display: flex;
+align-items: center;
+}
+
+.icon-container{
+    padding: 8px;
+}
+
+.material-icons.light { color: rgb(255, 255, 255); }
+
+.logo-container{
+padding: 18px 14px 18px 16px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.logo{
+    width: 90px;
+    height: 20px;
+}
+
+
+
+.middle-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-background{
+    border: 1px solid;
+    padding: 2px 6px;
+    background-color: #121212;
+}
+
+.search{
+    width: 559px;
+    height: 34px;
+    padding: 1px 2px;
+    border: 0;
+    background-color: #121212;
+    margin-left: 4px;
+
+}
+
+.search::placeholder{
+    font-size: 16px;
+    font-family: Roboto;
+  
+}
+
+.search-button-container{
+    background-color: rgb(48, 48, 48);
+    width: 50px;
+    height: 36px;
+    padding: 1px 6px;
+    border: 1px solid rgb(48, 48, 48);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.voice-search-container{
+    background-color: #181818;
+    border-radius: 50%;
+    padding: 8px;
+    margin-left: 4px;
+}
+
+
+
+.right-nav{
+    display: flex;
+}
+
+.app-menu-container{
+    padding: 8px;
+}
+
+.settings-container{
+    padding: 8px;
+}
